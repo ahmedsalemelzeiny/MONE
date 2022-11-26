@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MONE_Example' do
+  pod 'MONE', :path => '../'
+
+  target 'MONE_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
