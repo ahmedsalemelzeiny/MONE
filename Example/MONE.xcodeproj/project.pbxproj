@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		720C1C6722B504C6EA3D8125 /* Pods-MONE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MONE_Example.debug.xcconfig"; path = "Target Support Files/Pods-MONE_Example/Pods-MONE_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B33386C09F80D5B5ACCDC3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		940BB5E8AE0745CD5DCB52F0 /* MONE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MONE.podspec; path = ../MONE.podspec; sourceTree = "<group>"; };
+		7B33386C09F80D5B5ACCDC3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		940BB5E8AE0745CD5DCB52F0 /* MONE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MONE.podspec; path = ../MONE.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C067B84C6B78E6F59802D05B /* Pods-MONE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MONE_Tests.release.xcconfig"; path = "Target Support Files/Pods-MONE_Tests/Pods-MONE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F91D83DED7EA8AFE3630DF6E /* Pods_MONE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MONE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2057843233032CCF2E24F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD2057843233032CCF2E24F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				1C2F82EF0C8B8D11FF69964C /* Pods-MONE_Tests.debug.xcconfig */,
 				C067B84C6B78E6F59802D05B /* Pods-MONE_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
