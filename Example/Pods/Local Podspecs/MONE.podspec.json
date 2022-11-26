@@ -1,0 +1,22 @@
+{
+  "name": "MONE",
+  "version": "0.1.0",
+  "summary": "A short description of MONE.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ahmedsalemelzeiny/MONE",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ahmedsalemelzeiny": "ahmedsalemelzeiny2013@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ahmedsalemelzeiny/MONE.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MONE/Classes/**/*"
+}

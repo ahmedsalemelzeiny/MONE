@@ -1,0 +1,6 @@
+framework module MONE {
+  umbrella header "MONE-umbrella.h"
+
+  export *
+  module * { export * }
+}
